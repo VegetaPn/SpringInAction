@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestSpring.iml" filepath="$PROJECT_DIR$/TestSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testspring-main/testspring-main.iml" filepath="$PROJECT_DIR$/testspring-main/testspring-main.iml" />
+    </modules>
+  </component>
+</project>
