@@ -5,4 +5,25 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:component-scan base-package="soundsystem" />
+
+    <!--<bean id="compactDisc" class="soundsystem.BlankDisc" >-->
+        <!--<constructor-arg value="Sgt. Pepper's Lonely Hearts Club Band" />-->
+        <!--<constructor-arg value="The Beatles" />-->
+    <!--</bean>-->
+    <bean id="compactDisc" class="soundsystem.collections.BlankDisc" >
+        <constructor-arg value="Sgt. Pepper's Lonely Hearts Club Band" />
+        <constructor-arg value="The Beatles" />
+        <constructor-arg>
+            <list>
+                <value>Sgt. Pepper's Lonely Hearts Club Band</value>
+                <value>With a Little Help from My Friends</value>
+                <value>Lucy in the Sky with Diamonds</value>
+                <value>Getting Better</value>
+                <value>Fixing a Hole</value>
+            </list>
+        </constructor-arg>
+    </bean>
+    <bean id="cdPlayer" class="soundsystem.CDPlayer">
+        <constructor-arg ref="compactDisc" />
+    </bean>
 </beans>
