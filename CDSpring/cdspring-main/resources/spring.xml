@@ -2,28 +2,41 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
     <context:component-scan base-package="soundsystem" />
+
+    <util:list id="trackList">
+        <value>Sgt. Pepper's Lonely Hearts Club Band</value>
+        <value>With a Little Help from My Friends</value>
+        <value>Lucy in the Sky with Diamonds</value>
+        <value>Getting Better</value>
+        <value>Fixing a Hole</value>
+    </util:list>
 
     <!--<bean id="compactDisc" class="soundsystem.BlankDisc" >-->
         <!--<constructor-arg value="Sgt. Pepper's Lonely Hearts Club Band" />-->
         <!--<constructor-arg value="The Beatles" />-->
     <!--</bean>-->
     <bean id="compactDisc" class="soundsystem.collections.BlankDisc" >
-        <constructor-arg value="Sgt. Pepper's Lonely Hearts Club Band" />
-        <constructor-arg value="The Beatles" />
-        <constructor-arg>
-            <list>
-                <value>Sgt. Pepper's Lonely Hearts Club Band</value>
-                <value>With a Little Help from My Friends</value>
-                <value>Lucy in the Sky with Diamonds</value>
-                <value>Getting Better</value>
-                <value>Fixing a Hole</value>
-            </list>
-        </constructor-arg>
+        <!--<constructor-arg value="Sgt. Pepper's Lonely Hearts Club Band" />-->
+        <!--<constructor-arg value="The Beatles" />-->
+        <!--<constructor-arg>-->
+            <!--<list>-->
+                <!--<value>Sgt. Pepper's Lonely Hearts Club Band</value>-->
+                <!--<value>With a Little Help from My Friends</value>-->
+                <!--<value>Lucy in the Sky with Diamonds</value>-->
+                <!--<value>Getting Better</value>-->
+                <!--<value>Fixing a Hole</value>-->
+            <!--</list>-->
+        <!--</constructor-arg>-->
+        <property name="title" value="Sgt. Pepper's Lonely Hearts Club Band" />
+        <property name="artist" value="The Beatles" />
+        <property name="tracks" ref="trackList" />
     </bean>
     <bean id="cdPlayer" class="soundsystem.CDPlayer">
-        <constructor-arg ref="compactDisc" />
+        <!--<constructor-arg ref="compactDisc" />-->
+        <property name="cd" ref="compactDisc" />
     </bean>
 </beans>
