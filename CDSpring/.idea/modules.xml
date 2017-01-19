@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CDSpring/CDSpring.iml" filepath="$PROJECT_DIR$/CDSpring/CDSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cdspring-javaconfig/cdspring-javaconfig.iml" filepath="$PROJECT_DIR$/cdspring-javaconfig/cdspring-javaconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/cdspring-main/cdspring-main.iml" filepath="$PROJECT_DIR$/cdspring-main/cdspring-main.iml" />
     </modules>
   </component>
