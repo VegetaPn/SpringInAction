@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class CDPlayerConfig {
-    @Bean
-    public CompactDisc sgtPeppers() {
-        return new SgtPeppers();
-    }
+//    @Bean
+//    public CompactDisc sgtPeppers() {
+//        return new SgtPeppers();
+//    }
 
     @Bean
     public CompactDisc randomBeatlesCD() {
@@ -28,11 +28,11 @@ public class CDPlayerConfig {
 
     @Bean
     public CDPlayer cdPlayer() {
-        return new CDPlayer(sgtPeppers());
+        return new CDPlayer(randomBeatlesCD());
     }
 
-    @Bean
-    public CDPlayer anotherCDPlayer() {
-        return new CDPlayer(sgtPeppers());
-    }
+//    @Bean
+//    public CDPlayer anotherCDPlayer() {
+//        return new CDPlayer(sgtPeppers());
+//    }
 }
