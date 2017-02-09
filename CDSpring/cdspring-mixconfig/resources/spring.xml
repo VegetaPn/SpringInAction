@@ -14,11 +14,19 @@
         <value>Fixing a Hole</value>
     </util:list>
 
-    <bean id="compactDisc" class="soundsystem.SgtPeppers" >
-        <!--<constructor-arg value="Sgt. Pepper's Lonely Hearts Club Band" />-->
-        <!--<constructor-arg value="The Beatles" />-->
-    </bean>
-    <!--<bean id="compactDisc" class="soundsystem.collections.BlankDisc" >-->
+    <beans profile="dev">
+        <bean id="compactDisc" class="soundsystem.SgtPeppers" >
+            <!--<constructor-arg value="Sgt. Pepper's Lonely Hearts Club Band" />-->
+            <!--<constructor-arg value="The Beatles" />-->
+        </bean>
+    </beans>
+    <beans profile="qa">
+        <bean id="blankDisc" class="soundsystem.BlankDisc" >
+            <constructor-arg value="Blank Disk" />
+            <constructor-arg value="Blank Content" />
+        </bean>
+    </beans>
+   <!--<bean id="compactDisc" class="soundsystem.collections.BlankDisc" >-->
         <!--&lt;!&ndash;<constructor-arg value="Sgt. Pepper's Lonely Hearts Club Band" />&ndash;&gt;-->
         <!--&lt;!&ndash;<constructor-arg value="The Beatles" />&ndash;&gt;-->
         <!--&lt;!&ndash;<constructor-arg>&ndash;&gt;-->
