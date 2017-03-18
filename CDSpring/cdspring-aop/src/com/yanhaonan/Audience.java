@@ -1,5 +1,6 @@
 package com.yanhaonan;
 
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
@@ -31,5 +32,17 @@ public class Audience {
     @AfterThrowing("performance()")
     public void demandRefund() {
         System.out.println("Demanding a refund");
+    }
+
+    @Around("performance()")
+    public void watchPerformance(ProceedingJoinPoint jp) {
+        try {
+            System.out.println("Silencing cell phones");
+            System.out.println("Taking seats");
+            jp.proceed();
+            System.out.println("CLAP CLAP CLAP!!!");
+        } catch (Throwable e) {
+            System.out.println("Demanding a refund");
+        }
     }
 }
