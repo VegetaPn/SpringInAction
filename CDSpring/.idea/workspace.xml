@@ -21,32 +21,34 @@
     <favorites_list name="CDSpring" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Audience.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/Audience.java">
+        <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Audience.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+            <state relative-caret-position="108">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/config/spring.xml">
+      <file leaf-file-name="Performance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Performance.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerformanceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cdspring-aop/test/com/yanhaonan/concert/PerformanceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -55,10 +57,23 @@
       <file leaf-file-name="SpringConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/config/SpringConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerformanceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/PerformanceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,9 +85,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -114,9 +130,12 @@
         <option value="$PROJECT_DIR$/cdspring-advancd/src/test/soundsystem/ExpressiveConfigTest.java" />
         <option value="$PROJECT_DIR$/desertspring-ambiguity/src/com/yanhaonan/SpringConfig.java" />
         <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Performance.java" />
-        <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/config/SpringConfig.java" />
         <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/config/spring.xml" />
+        <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/PerformanceImpl.java" />
+        <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/config/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/cdspring-aop/test/com/yanhaonan/concert/PerformanceTest.java" />
         <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/Audience.java" />
+        <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Audience.java" />
       </list>
     </option>
   </component>
@@ -167,34 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Android Instrumentation Tests" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,11 +214,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="yanhaonan" />
+              <option name="myItemId" value="concert" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,6 +244,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CDSpring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cdspring-aop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yanhaonan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Android Instrumentation Tests" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
@@ -274,9 +315,17 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yanhaonan.concert" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yanhaonan.concert" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -291,8 +340,11 @@
       <recent name="$PROJECT_DIR$/CDSpring" />
       <recent name="$PROJECT_DIR$/cdspring-javaconfig" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yanhaonan.concert" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExpressiveConfigTest.testDisc">
+  <component name="RunManager" selected="TestNG.PerformanceTest.testPerform">
     <configuration default="false" name="CDPlayerTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="cdspring-mixconfig" />
@@ -300,27 +352,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CDPlayerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CDPlayerTestXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="cdspring-mixconfig" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CDPlayerTestXML" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -401,6 +432,39 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PerformanceTest.testPerform" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yanhaonan.concert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cdspring-aop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.yanhaonan.concert" />
+      <option name="MAIN_CLASS_NAME" value="com.yanhaonan.concert.PerformanceTest" />
+      <option name="METHOD_NAME" value="testPerform" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -826,18 +890,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.CDPlayerTest (2)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CDPlayerTestXML" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CDPlayerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MagicTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ExpressiveConfigTest.testDisc" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CDPlayerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MagicTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExpressiveConfigTest.testDisc" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.PerformanceTest.testPerform" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ExpressiveConfigTest.testDisc" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MagicTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CDPlayerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CDPlayerTest (2)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CDPlayerTestXML" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.PerformanceTest.testPerform" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExpressiveConfigTest.testDisc" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MagicTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CDPlayerTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CDPlayerTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -861,57 +925,59 @@
       <workItem from="1487441317414" duration="779000" />
       <workItem from="1487499130936" duration="2564000" />
       <workItem from="1488123455563" duration="1947000" />
-      <workItem from="1489836539983" duration="2882000" />
+      <workItem from="1489836539983" duration="4168000" />
+      <workItem from="1490367121001" duration="4005000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CDPlayerTest_(2) - 2017.02.09 at 22h 22m 13s.xml">
-      <configuration name="CDPlayerTest (2)" configurationId="JUnit" />
+    <history-entry file="PerformanceTest_testPerform - 2017.03.24 at 23h 03m 42s.xml">
+      <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CDPlayerTest_testCdShouldNotBeNull_(1) - 2017.01.20 at 23h 30m 31s.xml">
-      <configuration name="CDPlayerTest.testCdShouldNotBeNull (1)" configurationId="JUnit" />
+    <history-entry file="PerformanceTest_testPerform - 2017.03.24 at 23h 06m 21s.xml">
+      <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CDPlayerTest_testMediaPlay_(1) - 2017.01.20 at 23h 30m 25s.xml">
-      <configuration name="CDPlayerTest.testMediaPlay (1)" configurationId="JUnit" />
+    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 00h 42m 39s.xml">
+      <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExpressiveConfigTest_testDisc - 2017.02.19 at 18h 59m 40s.xml">
-      <configuration name="ExpressiveConfigTest.testDisc" configurationId="JUnit" />
+    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 00h 43m 40s.xml">
+      <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExpressiveConfigTest_testDisc - 2017.02.19 at 19h 00m 37s.xml">
-      <configuration name="ExpressiveConfigTest.testDisc" configurationId="JUnit" />
+    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 43m 03s.xml">
+      <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MagicTest - 2017.02.12 at 16h 16m 51s.xml">
-      <configuration name="MagicTest" configurationId="JUnit" />
+    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 43m 45s.xml">
+      <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MagicTest - 2017.02.12 at 16h 19m 12s.xml">
-      <configuration name="MagicTest" configurationId="JUnit" />
+    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 44m 13s.xml">
+      <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MagicTest - 2017.02.12 at 16h 20m 46s.xml">
-      <configuration name="MagicTest" configurationId="JUnit" />
+    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 44m 44s.xml">
+      <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MagicTest - 2017.02.12 at 16h 21m 40s.xml">
-      <configuration name="MagicTest" configurationId="JUnit" />
+    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 45m 14s.xml">
+      <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MagicTest - 2017.02.12 at 16h 31m 19s.xml">
-      <configuration name="MagicTest" configurationId="JUnit" />
+    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 45m 30s.xml">
+      <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32373000" />
+    <option name="totallyTimeSpent" value="37664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="23" width="1239" height="777" extended-state="0" />
+    <frame x="41" y="23" width="1239" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24477862" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -921,13 +987,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -954,27 +1019,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cdspring-javaconfig/src/soundsystem/CDPlayerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cdspring-javaconfig/test/CDPlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cdspring-main/test/CDPlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cdspring-main/resources/spring.tld" />
     <entry file="file://$PROJECT_DIR$/cdspring-main/cdspring-main.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1237,7 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,9 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#269#270#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1262,7 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,15 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Performance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,30 +1335,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../MyDesignPattern/lib/spring-test-4.3.6.RELEASE.jar!/org/springframework/test/context/testng/AbstractTestNGSpringContextTests.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/PerformanceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Performance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/config/SpringConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/Audience.java">
+    <entry file="file://$PROJECT_DIR$/cdspring-aop/test/com/yanhaonan/concert/PerformanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        <state relative-caret-position="120">
+          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Audience.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
           </folding>
         </state>
       </provider>

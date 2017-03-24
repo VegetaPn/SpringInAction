@@ -9,6 +9,6 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  */
 @Configuration
 @EnableAspectJAutoProxy
-@ComponentScan(value = "*")
+@ComponentScan(value = "com.yanhaonan.concert")
 public class SpringConfig {
 }

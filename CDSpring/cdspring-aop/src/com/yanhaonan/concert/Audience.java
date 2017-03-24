@@ -1,4 +1,4 @@
-package com.yanhaonan;
+package com.yanhaonan.concert;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Audience {
 
-    @Pointcut("execution(* concert.Performance.perform(..))")
+    @Pointcut("execution(* Performance.perform(..))")
     public void performance() {}
 
     @Before("performance()")
