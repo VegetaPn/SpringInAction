@@ -11,36 +11,36 @@ import org.springframework.stereotype.Component;
 @Component
 public class Audience {
 
-    @Pointcut("execution(* Performance.perform(..))")
-    public void performance() {}
+    @Pointcut("execution(* Performance.perform(int)) && args(n)")
+    public void performance(int n) {}
 
-    @Before("performance()")
-    public void silenceCellPhones() {
-        System.out.println("Silenceing cell phones");
+    @Before(value = "performance(n)", argNames = "n")
+    public void silenceCellPhones(int n) {
+        System.out.println("Silenceing cell phones " + n);
     }
 
-    @Before("performance()")
-    public void takeSeats() {
-        System.out.println("Taking setas");
+    @Before("performance(n)")
+    public void takeSeats(int n) {
+        System.out.println("Taking seats");
     }
 
-    @AfterReturning("performance()")
-    public void applause() {
+    @AfterReturning("performance(n)")
+    public void applause(int n) {
         System.out.println("CLAP CLAP CLAP!!!");
     }
 
-    @AfterThrowing("performance()")
-    public void demandRefund() {
+    @AfterThrowing("performance(n)")
+    public void demandRefund(int n) {
         System.out.println("Demanding a refund");
     }
 
-    @Around("performance()")
-    public void watchPerformance(ProceedingJoinPoint jp) {
+    @Around("performance(n)")
+    public void watchPerformance(ProceedingJoinPoint jp, int n) {
         try {
             System.out.println("Silencing cell phones");
             System.out.println("Taking seats");
             jp.proceed();
-            System.out.println("CLAP CLAP CLAP!!!");
+            System.out.println("CLAP CLAP CLAP!!! " + n);
         } catch (Throwable e) {
             System.out.println("Demanding a refund");
         }

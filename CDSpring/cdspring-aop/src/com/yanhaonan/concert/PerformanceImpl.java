@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class PerformanceImpl implements Performance {
     @Override
-    public void perform() {
-        System.out.println("Performing...");
+    public void perform(int n) {
+        System.out.println("Performing... " + n);
     }
 }

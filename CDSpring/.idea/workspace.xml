@@ -25,10 +25,14 @@
       <file leaf-file-name="Audience.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Audience.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="228">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +41,8 @@
       <file leaf-file-name="Performance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Performance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -47,8 +51,8 @@
       <file leaf-file-name="PerformanceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cdspring-aop/test/com/yanhaonan/concert/PerformanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+            <state relative-caret-position="210">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -57,7 +61,7 @@
       <file leaf-file-name="SpringConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/config/SpringConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="135">
               <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,11 +73,10 @@
       <file leaf-file-name="PerformanceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/PerformanceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,12 +132,12 @@
         <option value="$PROJECT_DIR$/cdspring-advancd/resources/app.properties" />
         <option value="$PROJECT_DIR$/cdspring-advancd/src/test/soundsystem/ExpressiveConfigTest.java" />
         <option value="$PROJECT_DIR$/desertspring-ambiguity/src/com/yanhaonan/SpringConfig.java" />
-        <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Performance.java" />
         <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/config/spring.xml" />
-        <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/PerformanceImpl.java" />
         <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/config/SpringConfig.java" />
-        <option value="$PROJECT_DIR$/cdspring-aop/test/com/yanhaonan/concert/PerformanceTest.java" />
         <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/Audience.java" />
+        <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Performance.java" />
+        <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/PerformanceImpl.java" />
+        <option value="$PROJECT_DIR$/cdspring-aop/test/com/yanhaonan/concert/PerformanceTest.java" />
         <option value="$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Audience.java" />
       </list>
     </option>
@@ -186,6 +189,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,12 +304,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -926,44 +929,45 @@
       <workItem from="1487499130936" duration="2564000" />
       <workItem from="1488123455563" duration="1947000" />
       <workItem from="1489836539983" duration="4168000" />
-      <workItem from="1490367121001" duration="4005000" />
+      <workItem from="1490367121001" duration="4416000" />
+      <workItem from="1490445003213" duration="2516000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PerformanceTest_testPerform - 2017.03.24 at 23h 03m 42s.xml">
+    <history-entry file="PerformanceTest_testPerform - 2017.03.26 at 00h 29m 58s.xml">
       <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PerformanceTest_testPerform - 2017.03.24 at 23h 06m 21s.xml">
+    <history-entry file="PerformanceTest_testPerform - 2017.03.26 at 00h 35m 33s.xml">
       <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 00h 42m 39s.xml">
+    <history-entry file="PerformanceTest_testPerform - 2017.03.26 at 00h 41m 13s.xml">
       <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 00h 43m 40s.xml">
+    <history-entry file="PerformanceTest_testPerform - 2017.03.26 at 00h 44m 07s.xml">
       <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 43m 03s.xml">
+    <history-entry file="PerformanceTest_testPerform - 2017.03.26 at 00h 45m 23s.xml">
       <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 43m 45s.xml">
+    <history-entry file="PerformanceTest_testPerform - 2017.03.26 at 00h 45m 39s.xml">
       <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 44m 13s.xml">
+    <history-entry file="PerformanceTest_testPerform - 2017.03.26 at 00h 46m 07s.xml">
       <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 44m 44s.xml">
+    <history-entry file="PerformanceTest_testPerform - 2017.03.26 at 00h 48m 53s.xml">
       <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 45m 14s.xml">
+    <history-entry file="PerformanceTest_testPerform - 2017.03.26 at 00h 49m 11s.xml">
       <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PerformanceTest_testPerform - 2017.03.25 at 01h 45m 30s.xml">
+    <history-entry file="PerformanceTest_testPerform - 2017.03.26 at 00h 49m 41s.xml">
       <configuration name="PerformanceTest.testPerform" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37664000" />
+    <option name="totallyTimeSpent" value="40591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1239" height="777" extended-state="6" />
@@ -976,8 +980,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24477862" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -987,8 +991,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1010,7 +1014,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1257,9 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1313,13 +1314,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desertspring-ambiguity/src/com/yanhaonan/SpringConfig.java" />
-    <entry file="file://$PROJECT_DIR$/desertspring-ambiguity/src/com/yanhaonan/Dessert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../MyDesignPattern/lib/spring-context-4.3.6.RELEASE.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1339,32 +1333,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/PerformanceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Performance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/config/SpringConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="135">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1372,20 +1346,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/desertspring-ambiguity/src/com/yanhaonan/Dessert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/PerformanceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Performance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cdspring-aop/test/com/yanhaonan/concert/PerformanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+        <state relative-caret-position="210">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cdspring-aop/src/com/yanhaonan/concert/Audience.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="228">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
           </folding>
         </state>
       </provider>

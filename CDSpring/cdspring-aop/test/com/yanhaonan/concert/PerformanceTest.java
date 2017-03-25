@@ -18,7 +18,7 @@ public class PerformanceTest extends AbstractTestNGSpringContextTests {
 
     @Test
     public void testPerform() throws Exception {
-        performance.perform();
+        performance.perform(1);
     }
 
 }
