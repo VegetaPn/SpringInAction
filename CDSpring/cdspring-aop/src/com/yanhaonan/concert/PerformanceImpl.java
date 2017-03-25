@@ -1,5 +1,6 @@
 package com.yanhaonan.concert;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -7,6 +8,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class PerformanceImpl implements Performance {
+
     @Override
     public void perform(int n) {
         System.out.println("Performing... " + n);

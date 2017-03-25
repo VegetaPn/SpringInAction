@@ -21,4 +21,10 @@ public class PerformanceTest extends AbstractTestNGSpringContextTests {
         performance.perform(1);
     }
 
+    @Test
+    public void testPerformEncore() throws Exception {
+        Encoreable encoreable = (Encoreable) performance;
+        encoreable.performEncore();
+    }
+
 }
