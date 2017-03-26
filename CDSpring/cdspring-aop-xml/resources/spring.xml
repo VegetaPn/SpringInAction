@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.yanhaonan.concert" />
+    <!--<aop:aspectj-autoproxy />-->
+
+    <aop:config>
+        <aop:aspect ref="audience" >
+            <aop:pointcut id="performance" expression="execution(* com.yanhaonan.concert.Performance.perform(int))
+                and args(n)" />
+
+            <aop:before pointcut-ref="performance" method="silenceCellPhones" />
+            <aop:before pointcut-ref="performance" method="takeSeats"/>
+            <aop:after-returning method="applause" pointcut-ref="performance" />
+            <aop:after-throwing method="demandRefund" pointcut-ref="performance" />
+            <aop:around method="watchPerformance" pointcut-ref="performance" />
+
+            <!--<aop:declare-parents types-matching="com.yanhaonan.concert.Performance+"-->
+                                 <!--implement-interface="com.yanhaonan.concert.Encoreable"-->
+                                 <!--default-impl="com.yanhaonan.concert.DefaultEncoreableImpl" />-->
+            <aop:declare-parents types-matching="com.yanhaonan.concert.Performance+"
+                                 implement-interface="com.yanhaonan.concert.Encoreable"
+                                 delegate-ref="defaultEncoreableImpl" />
+        </aop:aspect>
+    </aop:config>
+</beans>
